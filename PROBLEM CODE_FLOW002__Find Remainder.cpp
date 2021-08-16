@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int t;
+    cin>>t;
+    
+    while(t>0)
+    {
+      int a,b,c;
+      cin>>a>>b;
+      {
+        c=a%b;
+        }
+        cout<<c<<endl;
+      t--;
+    }
+    return 0;
+}
